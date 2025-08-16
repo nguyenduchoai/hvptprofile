@@ -4,9 +4,6 @@
   "outputDirectory": ".next",
   "installCommand": "npm install",
   "devCommand": "npm run dev",
-  "env": {
-    "WEBHOOK_URL": "@webhook_url"
-  },
   "functions": {
     "src/app/api/**/*.ts": {
       "runtime": "nodejs18.x"
